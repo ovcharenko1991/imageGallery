@@ -1,0 +1,30 @@
+.ReactTags__selected {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ReactTags__tagInput {
+    width: 100%;
+}
+
+.tag-wrapper {
+    padding: 0 10px 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    background: #e6e6e6;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.tag-wrapper:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.tag-wrapper > a {
+    margin-left: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
